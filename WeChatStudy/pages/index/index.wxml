@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class='header'>
+  <image src="{{avatarUrl}}"></image><!-- 用户头像 -->
+</view>
+<view>
+   <button class="bottom" bindtap="getUI"type='primary'>授权登录</button><!-- 授权登录按钮 -->
+</view>
+<!-- type='primary' 默认按钮为绿色 --><!-- 授权登录 为按钮内容 -->
+

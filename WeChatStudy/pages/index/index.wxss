@@ -1,0 +1,23 @@
+/**index.wxss**/
+/* pages/userInfo/userInfo.wxss */
+.header {/*样式文件配置 */
+  margin: 90rpx 0 90rpx 50rpx;/*margin 属性为给定元素设置所有四个（上下左右）方向的外边距属性。也就是 margin-top，margin-right，margin-bottom，和 margin-left 四个外边距属性设置的简写 */
+  border-bottom: 1px solid rgb(11, 165, 88);/* border-bottom 简写属性把下边框的所有属性：border-bottom-color，border-bottom-style 与 border-bottom-width 设置到了一个声明中。这些属性描述了元素的下边框样式。 */
+  text-align: center;
+  width: 650rpx;
+  height: 300rpx;
+  line-height: 450rpx;
+  margin-top: 120px;
+ }
+ .header image {
+  width: 185rpx;
+  height: 185rpx;
+  border-radius: 50%;/* 图片圆角为50 */
+  margin-right: 20rpx;
+  background-color: #f8f8f8;
+ }
+.bottom {
+  border-radius: 80rpx;
+  margin: 70rpx 50rpx;
+  font-size: 35rpx;
+ }

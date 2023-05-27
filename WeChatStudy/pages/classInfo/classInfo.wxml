@@ -1,0 +1,81 @@
+<!--pages/classInfo/classInfo.wxml-->
+<!--选择器-->
+<!-- <view class="section">
+      <view class="section__title">多列选择器：</view>
+      <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+        <view class="picker">
+          当前选择：{{multiArray[0][multiIndex[0]]}}，{{multiArray[1][multiIndex[1]]}}
+        </view>
+      </picker>
+    </view> -->
+
+<!-- 头部搜索框 -->
+<view>
+  <view>
+    <view class="weui-search-bar">
+      <view class="weui-search-bar__form">
+        <!-- 可编辑时的搜索框 -->
+        <view class="weui-search-bar__box">
+          <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+          <input type="text" class="weui-search-bar__input" placeholder="搜索课程" bindinput='query'/>
+        </view>
+        <!-- 最初始时的搜索框 -->
+        <label class="weui-search-bar__label" hidden="{{inputShowed}}" bindtap="showInput">
+          <icon class="weui-icon-search" type="search" size="14"></icon>
+          <view class="weui-search-bar__text" >搜索</view>
+        </label>
+      </view>
+      <!-- 取消搜索 -->
+      <view class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">取消</view>
+    </view>
+  </view>
+  <scroll-view wx:if="{{inputShowed}}" class="scrollview" scroll-y="true">
+    <view wx:for="{{className2}}" wx:key="c_id"> 
+      <view class="scrollItem">
+        <view class="imageBox">
+          <view>
+            {{item.c_name}}
+          </view>
+          <view data-text="{{item.c_id}}" bindtap="gotoFace">点击进入考勤</view>
+        </view>
+      </view>
+    </view> 
+  </scroll-view>
+</view>
+
+<view wx:if="{{isSeach}}">
+  <view class="imageBox" wx:for="{{className}}" data-item="item" wx:for-index="idx" wx:key="c_id">
+    <view>
+      {{item.c_name}}
+    </view>
+    <view data-text="{{item.c_id}}" bindtap="modalinput" >点击进入考勤</view>
+    <!-- <image src="{{listData.imgUrl[0]}}" bindtap="previewSqs" data-src="{{listData.imgUrl[0]}}"></image> -->
+  </view>
+</view>
+
+<!-- 输入弹框设置 -->
+<modal id="modal" hidden="{{hiddenmodalput}}" title="填写教室密令" confirm - text="提交" cancel - text="取消" bindcancel="cancel" bindconfirm="gotoFace">
+  <input type='number' placeholder="教室密令：" auto-focus bindinput="getInptu"/>
+</modal>
+
+<!-- <view>
+  <modal hidden="true" title="请补充相关信息" confirm-text="确认" cancel-text="取消" bindcancel="cancel" bindconfirm="gotoFace"> 
+    <input class='inputinfo' hidden="{{hidden2}}" type='text' placeholder="考勤口令：" bindinput='setclass' value='{{sclass}}' />
+  </modal>
+</view> -->
+<!-- 教师信息管理 -->
+<!-- <view class="btnouter"> -->
+  <!-- <button type="primary" class="addClass" bindtap='tiaozhuang' >添加考勤信息</button> -->
+  <!-- <view class='record' bindtap='submit'>点击上传</view> -->
+<!-- </view> -->
+
+
+<!-- <view class="imageBox">
+  <view>点击进入考勤</view>
+  <image src="{{listData.imgUrl[1]}}" bindtap="previewSqs" data-src="{{listData.imgUrl[1]}}"></image>
+</view>
+
+<view class="imageBox">
+  <view bindtap="previewSqs" >点击进入考勤</view>
+  <image src="{{listData.imgUrl[2]}}" bindtap="previewSqs" data-src="{{listData.imgUrl[2]}}"></image>
+</view> -->

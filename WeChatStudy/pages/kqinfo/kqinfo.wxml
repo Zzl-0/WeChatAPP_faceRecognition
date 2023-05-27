@@ -1,0 +1,26 @@
+<!--pages/kqinfo/kqinfo.wxml-->
+
+<view class="table">
+  <!-- <view class="tr bg-z">与我相关</view> -->
+  <view class="tr bg-w">
+    <view class="th">课程名</view>
+    <view class="th">考勤状态</view>
+    <view class="th ">考勤时间</view>
+    <!-- <view class="th">管理</view> -->
+  </view>
+    <block  wx:for="{{listData}}" wx:key="id">
+      <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+        <view class="td">{{item.classname}}</view>
+        <view class="td">{{item.kqState}}</view>
+        <view class="td">{{item.up_time}}</view>
+        <!-- <view class="td" bindtap="del" type="default">删除</view> -->
+      </view>
+      <view class="tr" wx:else>
+        <view class="td">{{item.classname}}</view>
+        <view class="td">{{item.kqState}}</view>
+        <view class="td">{{item.up_time}}</view>
+        <!-- <button bindtap="del" >删除</button> -->
+      </view>
+    </block>
+</view>
+<view class="gotouser"><button type="default" bindtap="gotouser">返回个人中心</button></view>

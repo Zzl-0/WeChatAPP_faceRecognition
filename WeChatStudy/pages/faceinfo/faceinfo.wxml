@@ -1,0 +1,8 @@
+<!--pages/faceinfo/faceinfo.wxml-->
+<view class="imageBox">
+    <view>点击图片查看录入人脸照片</view>
+    <image src="{{myimgURL}}" bindtap="previewSqs" data-src="{{myimgURL}}"></image>
+</view>
+<view class="addFace"><button type="default" bindtap="gotoface">添加面容信息</button></view>
+
+

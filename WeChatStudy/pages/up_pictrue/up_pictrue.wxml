@@ -1,0 +1,3 @@
+<!--pages/up_pictrue/up_pictrue.wxml-->
+<text>pages/up_pictrue/up_pictrue.wxml</text>
+<button bindtap="up_pictrue">点击选择照片</button>

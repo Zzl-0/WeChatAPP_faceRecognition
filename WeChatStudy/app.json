@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/up_pictrue/up_pictrue",
+    "pages/user/user",
+    "pages/goentry/goentry",
+    "pages/face/face",
+    "pages/goentry_tea/goentry_tea",
+    "pages/kq_record/kq_record",
+    "pages/classInfo/classInfo",
+    "pages/faceinfo/faceinfo",
+    "pages/kqinfo/kqinfo",
+    "pages/testAll/testAll",
+    "pages/myClass/myClass",
+    "pages/sign/sign",
+    "pages/vivoTesting/vivo",
+    "pages/teacher_lesson/teacher_lesson",
+    "pages/vivo/vivo"
+  ],
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "color": "#000",
+    "selectedColor": "#FED61A",
+    "list": [
+      {
+        "pagePath": "pages/classInfo/classInfo",
+        "text": "我的课程",
+        "iconPath": "./pages/images/tabBar/footer-icon-door.png",
+        "selectedIconPath": "./pages/images/tabBar/footer-icon-active_door.png"
+      },
+      {
+        "pagePath": "pages/kq_record/kq_record",
+        "text": "信息管理",
+        "iconPath": "./pages/images/tabBar/icon_normal.png",
+        "selectedIconPath": "./pages/images/tabBar/icon_pressed.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "./pages/images/tabBar/footer-icon-04.png",
+        "selectedIconPath": "./pages/images/tabBar/footer-icon-04-active.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFF",
+    "navigationBarTitleText": "课堂考勤系统",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ]
+}

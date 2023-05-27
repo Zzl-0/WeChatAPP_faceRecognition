@@ -1,0 +1,48 @@
+<!--pages/face/face.wxml-->
+<!-- <view class="container"> -->
+  <!-- <view class="main"> -->
+    <!-- <camera class="camera" frame-size="large" device-position="front"></camera> -->
+    <!-- <view class="camera-box">
+        <camera
+            mode="normal"
+            device-position="{{devicePosition}}"
+            frame-size="{{frameSize}}"
+            resolution="{{resolution}}"
+            flash="{{flash}}"
+            binderror="error"
+            bindstop="stop"
+            class="camera">
+        </camera>
+        <view class="img-view">
+            <image mode="scaleToFill" class="mask-img" src="../../static/images/mask.png"></image>
+        </view>
+    </view>
+    <view class="btnouter">
+      <view class='record' bindtap='record'>点击拍照</view>
+    </view>
+    <view class="btnouter">
+      当前位置：{{QQmapName}}
+    </view>
+  </view>
+</view> -->
+<!--components/camera-face/index.wxml-->
+<!--人脸识别录像组件-->
+<view class="page-body">
+    <view class="camera-box">
+        <camera mode="normal" frame-size="large" device-position="front"
+            resolution="{{resolution}}"
+            binderror="error"
+            bindstop="stop"
+            class="camera">
+        </camera>
+        <view class="img-view">
+            <image mode="scaleToFill" class="mask-img" src="../../static/images/mask.png"></image>
+        </view>
+    </view>
+    <view class="btnouter">
+      <view class='record' bindtap='record'>点击拍照</view>
+    </view>
+    <view class="btnouter">
+      当前位置：{{QQmapName}}
+    </view>
+</view>

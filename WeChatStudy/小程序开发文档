@@ -1,0 +1,17 @@
+底部弹出栏： wx.showActionSheet
+
+不同用户不同界面 tabBar
+
+3. 标签block只是一个包装元素，只接受控制属性
+
+页面跳转的三种方式
+1. navigateTo   可以跳转回去
+2. redirectTo   关闭当前页面，跳转到某个页面，非tabBer页面
+3. navigateBack 关闭当前页面，返回上一页面或多级页面。可通过 getCurrentPages()) 获取当前的页面栈，决定需要返回几层。
+
+活体检测：  主要文件目录是 components 和 vivoTesting
+
+获取当前View中的值，并在点击方法是将值传输，由js接收
+
+跳转tabBer页面  使用switchTab不能传参数  
+  可以使用redirectTo 携带参数

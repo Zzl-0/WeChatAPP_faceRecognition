@@ -1,0 +1,28 @@
+<!-- 设置一个开关，如果为false就不显示 -->
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">学号</view>
+    <view class="th">姓名</view>
+    <view class="th ">考勤时间</view>
+  </view>
+  <block wx:for="{{chooseInfo}}" wx:key="id"> 
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.stu_id}}</view>
+      <view class="td">{{item.kqstate}}</view>
+      <view class="td">{{item.stu__stu_name}}</view>
+    </view>
+    <view class="tr" wx:else>
+      <view class="td">{{item.stu_id}}</view>
+      <view class="td">{{item.kqstate}}</view>
+      <view class="td">{{item.stu__stu_name}}</view>
+    </view>
+  </block>
+<!-- 未考勤人数 -->
+  
+
+  <!-- 教师信息管理 -->
+  <view class="btnouter">
+    <!-- <view class='record' bindtap='tiaozhuang'>考勤信息管理</view> -->
+    <!-- <view class='record' bindtap='submit'>点击上传</view> -->
+  </view>
+</view>

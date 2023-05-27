@@ -1,0 +1,192 @@
+/* pages/goentry/goentry.wxss */
+
+
+
+.center-time .using-data{
+  padding: 20rpx 0;
+}
+.date{
+  display: flex;
+  justify-content: space-between;
+}
+.item-data{
+  width: 120rpx;
+  height: 80rpx;
+  border: 2rpx solid #DFE2E5;
+  font-size: 20rpx;
+  border-radius: 20rpx;
+  margin: 15rpx;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.yellow{
+  width: 120rpx;
+  height: 80rpx;
+  border: 4rpx solid #FED61A;
+  font-size: 20rpx;
+  border-radius: 20rpx;
+  margin: 15rpx;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.item-data .time{
+  text-align: center;
+  display: block;
+}
+.item-data .cale{
+  text-align: center;
+  display: block;
+  color: #F95F5C;
+}
+.more{
+  font-size: 26rpx;
+  text-align: center;
+}
+.bottun-num{
+  font-size: 32rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.bottun-num .purchase{
+  padding-top: 40rpx;
+
+}
+.bottun-num .purchase-num{
+  display: flex;
+  padding-top: 20rpx;
+}
+.purchase-num .detail-item{
+  width: 80rpx;
+  background-color: #EEF7FE;
+  line-height: 80rpx;
+  font-size: 80rpx;
+  text-align: center;
+  border-radius: 20rpx;
+}
+.reduce{
+  color: #D3D5D7; 
+}
+.purchase-num .number{
+  width: 80rpx;
+  line-height: 80rpx;
+  font-size: 40rpx;
+  text-align: center;
+}
+.all-other{
+  width: 100%;
+  background: -webkit-linear-gradient(top,#FED61A,#fff);
+  display: flex;
+}
+.all-other .visitors{
+  width: 100%;
+  background: #fff;
+  border-radius: 40rpx;
+  padding: 40rpx;
+  margin: 60rpx 40rpx;
+}
+.visitors-detail{
+  display: flex;
+  justify-content: space-between;
+}
+.visitors .visitors-information{
+  font-size: 36rpx;
+  line-height: 80rpx;
+  border-bottom: 2rpx solid #D3D5D7;
+}
+.visitors-left{
+  flex: 1;
+}
+.visitors-left .visitors-top{
+  /* border: 5px solid red;  显示边框 */
+  border-bottom: 2rpx solid #D3D5D7;
+  display: flex;
+  justify-content: space-between;
+  height: 80rpx;
+}
+.visitors-left .visitors-button{
+  display: flex;
+  justify-content: space-between;
+  height: 80rpx;
+  /* border: 5px solid red;  显示边框 */
+}
+.clean{
+  display: flex;
+  text-align: center;
+  width: 100rpx;
+  align-items: center;
+  border-left: 2rpx solid #D3D5D7;
+}
+.clean text{
+  padding-left: 30rpx;
+  
+}
+.inputcontain {
+  flex: 1;
+  margin-left: 30rpx;
+}
+.button-submit{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: 70%;
+  height: 610rpx;
+  background-color: #fff;
+}
+.button-submit .total-price{
+  flex: 1;
+  padding-left: 60rpx;
+  padding-top: 30rpx;
+}
+.buying{
+  text-align: center;
+  font-size: 35rpx;
+  background-color: #FED61A;
+  border-radius: 35rpx;  /*圆角度*/
+  line-height: 80rpx;
+  margin-right: 40rpx;
+  height: 80rpx;
+  width: 160rpx;
+}
+
+
+/* 选择框 */
+.inputPlaceholder{
+  width: 360rpx;
+  height: 45rpx;
+  border: 1px solid #DEDEDE;
+  padding: 8rpx 40rpx 8rpx 20rpx;
+  margin-left: 16rpx;
+  color: #CBCBCB;
+  border-radius: 10rpx;
+  position: relative;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  white-space:nowrap;
+  /* border: 5px solid red;  显示边框 */
+}
+.jiantou1{
+  position: absolute;
+  right: 10rpx;
+  top: 8rpx;
+}
+.content{
+  width: 384rpx;
+  max-height: 500rpx;
+  position: absolute;
+  top: 430rpx;
+  left: 80rpx;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px 1px rgba(209, 209, 209, 0.35);
+  padding: 20rpx;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.content>view{
+  padding: 10rpx 0;
+}
+.active{
+  color: #56D88A;
+}

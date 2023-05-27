@@ -1,0 +1,53 @@
+<!--pages/goentry/goentry.wxml-->
+
+<view class='all-other'>
+  <view class='visitors'>
+  <!-- 填写信息 -->
+    <view class='visitors-information'>填写信息</view>
+    <!--  -->
+    <view class='visitors-detail'>
+      <view class='visitors-left'>
+        <!-- 输入姓名 -->
+        <view class='visitors-top'>
+          <view class='item-name'>姓名</view>
+          <view class='inputcontain'>
+            <view class='inputcontain'>
+              <input placeholder='请输入' type='text' class='inputinformation' bindinput='overinput' data-id='1' value='{{realname}}'></input>
+            </view>
+          </view>
+        </view>
+        <!-- 学号 -->
+        <view class='visitors-top'>
+          <view class='student_id'>学号</view>
+          <view class='inputcontain'>
+            <input placeholder='请输入' type='number' class='inputinformation' bindinput='overinput' data-id='2' value='{{student_id}}'></input>
+          </view>
+        </view>
+        <!-- 专业班级 -->
+        <view class='visitors-top'>
+          <view class='phonenumber'>专业班级</view>
+          <view class='inputcontain'>
+            <input placeholder='请输入' type='text' class='inputinformation' bindinput='overinput' data-id='3' value='{{collegeclass}}'></input>
+          </view>
+        </view>
+        <!-- 专业班级 -->
+        <view class='visitors-top'>
+          <view class='phonenumber'>学院名称</view>
+          <view class='inputcontain'>
+            <input placeholder='请输入' type='text' class='inputinformation' bindinput='overinput' data-id='4' value='{{college}}'></input>
+          </view>
+        </view>
+
+      </view>
+      <view class='clean' bindtap='cleandata'>
+        <text>清除</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='button-submit'>
+  <view class='total-price'></view>
+  <view class='buying' bindtap='submit'>
+    <text>提交信息</text>
+  </view>
+</view>

@@ -1,0 +1,21 @@
+/* pages/vivoTesting/vivo.wxss */
+page {
+  background: #ffffff;
+}
+
+.page {
+  width: 100%;
+  height: 800rpx;
+}
+
+.preview-tips {
+  width: 400rpx;
+  text-align: center;
+  margin: 20rpx auto;
+}
+
+.video {
+  margin: 50px auto;
+  width: 100%;
+  height: 300px;
+}

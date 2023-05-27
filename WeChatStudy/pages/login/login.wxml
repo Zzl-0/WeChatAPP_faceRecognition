@@ -1,0 +1,7 @@
+
+<text>pages/login/login.wxml</text>
+<button wx:if="{{!userInfo}}" bindtap="dianJi">点击授权</button>
+<view wx:else class="root">
+  <image class="touxian" src="{{userInfo.avatarUrl}}"></image>
+  <text>{{userInfo.nickName}}</text>
+</view>

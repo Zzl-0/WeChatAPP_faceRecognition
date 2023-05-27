@@ -1,0 +1,29 @@
+/* pages/faceinfo/faceinfo.wxss */
+page {
+  background: #EFF4FF;
+  /* background: #FFF; */
+}
+
+.imageBox {
+  margin: 3%;
+  background: white;
+  border-radius: 30rpx;
+  padding: 30rpx;
+  font-size: 28rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imageBox image {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+/* add */
+.add{
+  /* margin: 10%; */
+  width: 60%;
+  height: 30px;
+  font-size: 20px;
+}

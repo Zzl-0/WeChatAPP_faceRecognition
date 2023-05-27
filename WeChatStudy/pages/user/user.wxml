@@ -1,0 +1,49 @@
+<!--pages/user/user.wxml-->
+<!-- <text>pages/user/user.wxml</text> -->
+<view class='all'>
+  <view class="my-head">
+    <view class='my-user-information'>
+      <view class="root">
+        <image class="touxian" src="{{userInfo.avatarUrl}}"></image>
+      </view>
+      <view class="userInfoTxt">
+        <!-- 姓名 -->
+        <view class="userName">
+          <text>{{userInfo.nickName}}</text>
+        </view>
+        <!-- 学院 -->
+        <view class="userAcademy">
+          <view class="guestAcademy">信息学院</view>
+        </view>
+      </view>
+    </view>
+
+  </view>
+  <view>
+    <!-- 个人信息 -->
+    <view bindtap="goEntry" class="my-block bord10">
+      <image class="icon-w48" src="../images/myUser/keep.png"></image>
+      完善信息
+      <image class="icon-goRight" src="../images/myUser/goRight.png"></image>
+    </view>
+    <!-- 人脸信息 -->
+    <view bindtap="myCollect" class="my-block bord10" bindtap="faceClick" wx:if="{{isstudent}}">
+      <image class="icon-w48" src="../images/myUser/faceentry.png"></image>
+      我的信息
+      <image class="icon-goRight" src="../images/myUser/goRight.png"></image>
+    </view>
+    <!-- 关于我们 -->
+    <view bindtap="businessInfo" class="my-block bord10">
+      <image class="icon-help" src="../images/myUser/help.png"></image>
+      关于我们
+      <image class="icon-goRight" src="../images/myUser/goRight.png"></image>
+    </view>
+    <view bindtap="logoff" class="my-block">
+      <image class="icon-buiness" src="../images/myUser/logoff.png"></image>
+      退出登录
+      <image class="icon-goRight" src="../images/myUser/goRight.png"></image>
+    </view>
+
+  </view>
+</view>
+
