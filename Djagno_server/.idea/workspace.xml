@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0fa73b7b-a5f3-4611-9860-0107adea1a04" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Mdp4NwIE3XERUM8zlds9I496Fw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../face_recognition-master/examples" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\28893\Desktop\graduate_face_recognition\Djagno_server\adminM" />
+      <recent name="C:\Users\28893\Desktop\graduate_face_recognition\Djagno_server\classInfo" />
+      <recent name="C:\Users\28893\Desktop\graduate_face_recognition\Djagno_server\face_server" />
+      <recent name="C:\Users\28893\Desktop\graduate_face_recognition\Djagno_server\WX_api" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\28893\Desktop\graduate_face_recognition\Djagno_server" />
+      <recent name="C:\Users\28893\Desktop\graduate_face_recognition\Djagno_server\vivoTest" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django server.Djagno_server">
+    <configuration name="huoTiJianCe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Djagno_server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/renLianShiBie" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/renLianShiBie/huoTiJianCe.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Djagno_server" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Djagno_server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Djagno_server.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\MyPython\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="172.16.44.144" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.Djagno_server" />
+      <item itemvalue="Python.huoTiJianCe" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.huoTiJianCe" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0fa73b7b-a5f3-4611-9860-0107adea1a04" name="Default Changelist" comment="" />
+      <created>1678107122790</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678107122790</updated>
+      <workItem from="1678107127334" duration="7325000" />
+      <workItem from="1678165161683" duration="9800000" />
+      <workItem from="1678330337874" duration="5748000" />
+      <workItem from="1678601148324" duration="2301000" />
+      <workItem from="1678863433278" duration="10712000" />
+      <workItem from="1678979286832" duration="306000" />
+      <workItem from="1679014696735" duration="7004000" />
+      <workItem from="1679278010607" duration="637000" />
+      <workItem from="1679292675986" duration="13618000" />
+      <workItem from="1679624211971" duration="238000" />
+      <workItem from="1679816787228" duration="10590000" />
+      <workItem from="1679879196833" duration="1420000" />
+      <workItem from="1679968041460" duration="9445000" />
+      <workItem from="1680053278100" duration="7100000" />
+      <workItem from="1680150382220" duration="2364000" />
+      <workItem from="1680180041074" duration="2874000" />
+      <workItem from="1680337357160" duration="693000" />
+      <workItem from="1680398179934" duration="641000" />
+      <workItem from="1680414101087" duration="5500000" />
+      <workItem from="1680441869814" duration="11365000" />
+      <workItem from="1680483398653" duration="7329000" />
+      <workItem from="1680510164107" duration="1994000" />
+      <workItem from="1680521275009" duration="13765000" />
+      <workItem from="1680679557924" duration="10998000" />
+      <workItem from="1680805500336" duration="966000" />
+      <workItem from="1680827558728" duration="12196000" />
+      <workItem from="1680851562518" duration="3520000" />
+      <workItem from="1680856623967" duration="3507000" />
+      <workItem from="1681023686874" duration="7228000" />
+      <workItem from="1681087017173" duration="5190000" />
+      <workItem from="1681115829394" duration="4669000" />
+      <workItem from="1681172078125" duration="5452000" />
+      <workItem from="1681368572508" duration="1422000" />
+      <workItem from="1681455315076" duration="618000" />
+      <workItem from="1681629990601" duration="2093000" />
+      <workItem from="1681633637527" duration="458000" />
+      <workItem from="1681694116058" duration="2094000" />
+      <workItem from="1682436640429" duration="108000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1681052618540">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834/-1920.0.1920.1080@0.0.1536.834" timestamp="1681052618540" />
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1680853698212" />
+    <state x="-1290" y="284" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1681694807474">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1290" y="284" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1681694807474" />
+    <state x="504" y="219" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834/-1920.0.1920.1080@0.0.1536.834" timestamp="1678171310558" />
+    <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1678872044125">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834/-1920.0.1920.1080@0.0.1536.834" timestamp="1678872044125" />
+    <state x="-1234" y="223" key="FileChooserDialogImpl" timestamp="1682436715535">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1234" y="223" key="FileChooserDialogImpl/0.0.1536.834/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1682436715535" />
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834/-1920.0.1920.1080@0.0.1536.834" timestamp="1681026386072" />
+    <state width="1877" height="128" key="GridCell.Tab.0.bottom" timestamp="1681633301490">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="128" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1681633301490" />
+    <state width="1493" height="270" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1080@0.0.1536.834" timestamp="1681142439821" />
+    <state width="1020" height="199" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1681115084022" />
+    <state width="1877" height="128" key="GridCell.Tab.0.center" timestamp="1681633301490">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="128" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1681633301490" />
+    <state width="1493" height="270" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1080@0.0.1536.834" timestamp="1681142439821" />
+    <state width="1020" height="199" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1681115084022" />
+    <state width="1877" height="128" key="GridCell.Tab.0.left" timestamp="1681633301490">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="128" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1681633301490" />
+    <state width="1493" height="270" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1080@0.0.1536.834" timestamp="1681142439821" />
+    <state width="1020" height="199" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1681115084022" />
+    <state width="1877" height="128" key="GridCell.Tab.0.right" timestamp="1681633301490">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="128" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1681633301490" />
+    <state width="1493" height="270" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1080@0.0.1536.834" timestamp="1681142439821" />
+    <state width="1020" height="199" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1681115084022" />
+    <state x="-1220" y="338" key="com.intellij.ide.util.TipDialog" timestamp="1682436655127">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="261" key="com.intellij.ide.util.TipDialog/0.0.1536.834/-1920.0.1920.1080/1920.143.1024.768@0.0.1536.834" timestamp="1681172078602" />
+    <state x="-1220" y="338" key="com.intellij.ide.util.TipDialog/0.0.1536.834/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1682436655127" />
+    <state x="560" y="261" key="com.intellij.ide.util.TipDialog/0.0.1536.834/-1920.0.1920.1080@0.0.1536.834" timestamp="1681115835110" />
+    <state x="560" y="261" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1680856623158" />
+    <state x="-1377" y="275" width="672" height="678" key="search.everywhere.popup" timestamp="1678109280726">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1377" y="275" width="672" height="678" key="search.everywhere.popup/0.0.1536.834/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1678109280726" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Djagno_server$huoTiJianCe.coverage" NAME="huoTiJianCe Coverage Results" MODIFIED="1680459690608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/renLianShiBie" />
+  </component>
+</project>

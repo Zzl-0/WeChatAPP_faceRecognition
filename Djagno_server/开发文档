@@ -1,0 +1,52 @@
+---------------------------------开发步骤-------------------------------------
+
+1. 创建完Django项目
+
+2. 创建APP  端口输入：  python manage.py startapp (wx_api) 括号内容写自己的app名称
+
+3. 报错 Did you install mysqlclient?   已安装还是报错，同级目录__init__.py 添加 import pymysql
+pymysql.install_as_MySQLdb()
+
+4. django 路由详情见 https://rosmontis.com/archives/189
+
+5. 微信已实现拍照功能，上传Django服务器进行处理
+
+6. 微信小程序本地缓存存储的openID key ：  ‘openid’  根据openid来确认身份，必不可少  不能只是openid
+
+7. 活体检测功能实现才可实现拍照上传 文件名：vivoTest
+
+8. 连接已有的mysql数据库，将对应数据库的表自动生成到models.py文件中
+    python manage.py inspectdb > models.py
+
+    # 也可以只使用一个表
+    python manage.py inspectdb (表名）
+
+    注意要将 managed 的 False 改为 True
+
+    之后，运行如下指令，将django与数据库同步，可以进行增删查改
+    python manage.py makemigrations
+    python manage.py migrate
+
+
+
+--------------------------------------系统流程-----------------------------------------------
+1. 微信授权登录
+2. 检测是否第一次登录，是->强制个人信息填写  学生（0），教师（1）将个人权限写入缓存，后面根据缓存来判断有些功能是否可以使用
+3.
+
+
+
+--------------------------------------报错解决方案--------------------------------------------
+1. 报错 Did you install mysqlclient?   已安装还是报错，同级目录__init__.py 添加 import pymysql
+pymysql.install_as_MySQLdb()
+
+2. Django报错 ValueError: The view *** didn't return an HttpResponse object. It returned None instead.
+ 解：添加返回值
+
+3. 报错
+    设置跨域请求  setting.py 中
+
+4. 开发过程中文件获取不到，看是否使用的相对路径，最好使用绝对路径
+
+5. TypeError: __init__() got an unexpected keyword argument ‘unbound_message‘
+    我的是flask版本问题尝试重新下载  pip install flask==2.2.1  解决
